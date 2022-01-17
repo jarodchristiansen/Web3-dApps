@@ -1,0 +1,16 @@
+.signupholder {
+    display: flex;
+    background: black;
+    color: white;
+    justify-content: center;
+}
+.signUpText {
+    margin-left: 20px;
+}
+.signUpColumn {
+    display: flex;
+    flex-direction: column;
+}
+.signUpButtons {
+    margin: 20px 40px 0 0;
+}

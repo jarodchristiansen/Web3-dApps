@@ -1,0 +1,104 @@
+.auth {
+    margin: 10rem auto;
+    width: 100%;
+    max-width: 25rem;
+    border-radius: 6px;
+    min-width: 20rem;
+    /*background-color: #38015c;*/
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    padding: 1rem;
+    text-align: center;
+}
+
+.auth h1 {
+    text-align: center;
+    color: black;
+}
+
+.control {
+    margin-bottom: 0.5rem;
+}
+
+.control label {
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.control input {
+    font: inherit;
+    background-color: #f1e1fc;
+    color: #38015c;
+    border-radius: 4px;
+    border: 1px solid white;
+    width: 100%;
+    text-align: left;
+    padding: 0.25rem;
+}
+
+.actions {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.actions button {
+    cursor: pointer;
+    font: inherit;
+    color: white;
+    background-color: #055ba1;
+    border: 1px solid #055ba1;
+    border-radius: 4px;
+    padding: 0.5rem 2.5rem;
+}
+
+.actions button:hover {
+    background-color: #0890ff;
+    border-color: #0890ff;
+}
+
+.actions .toggle {
+    margin-top: 1rem;
+    background-color: transparent;
+    color: #055ba1;
+    border: none;
+    padding: 0.15rem 1.5rem;
+}
+
+.actions .toggle:hover {
+    background-color: transparent;
+    color: #055ba1;
+}
+
+.square {
+    min-width: 10px;
+    height: 50px;
+    background-color: yellow;
+}
+.buttonHolder {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+.orText {
+    justify-content: center;
+    margin-top: -28px;
+    margin-left: 44%;
+    background-color: #fff;
+    width: 50px;
+    z-index: 1;
+    display: flex;
+}
+.outer{
+    padding-top: 4%;
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: inline-block;
+    padding: 5%;
+}
